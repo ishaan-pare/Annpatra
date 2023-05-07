@@ -1,0 +1,252 @@
+.search {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.search-up {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 3px;
+}
+
+.search-up-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search-up-main input {
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.search-up-main button {
+    border: none;
+    background: #00ADB5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.search-up-filter {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.left-filter {
+    width: 40%;
+    font-weight: 100;
+}
+
+.search-up-filter input {
+    width: 30%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.right-filter {
+    width: 30%;
+    padding: 5px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+
+.search-down {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.search-down-restaurants {
+    width: 80%;
+    height: 100%;
+    margin-right: 10px;
+    box-shadow: 0px 0px 3px;
+}
+.search-restaurants-suggest {
+    padding: 10px;
+}
+.search-restaurants-suggest button {
+    border: none;
+    background: #00ADB5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.search-down-selected {
+    width: 20%;
+    box-shadow: 0px 0px 3px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+.search-selected-head {
+    padding: 10px;
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: small;
+}
+
+.search-selected-btn {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.search-selected-btn button {
+    border: none;
+    width: 80%;
+    background: #00ADB5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.search-restaurants-list {
+    display: grid;
+    grid-template-areas: "a a a";
+    padding: 5px;
+    gap: 10px;
+    
+}
+.restaurant-details {
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 0px 0px 3px;
+    height: 400px;
+    cursor: pointer;
+    width: 295px;
+}
+.restaurant-details:hover {
+    background-color: #e6ebee;
+}
+.restaurant-details-up {
+    display: flex;
+}
+.restaurant-up-left {
+}
+.restaurant-up-right {
+    padding: 10px;
+}
+.restaurant-rname {
+    font-size: small;
+}
+.restaurant-remail {
+    font-size: small;
+}
+.restaurant-rcon {
+    font-size: small;
+}
+.restaurant-raddr {
+    font-size: small;
+}
+.restaurant-exp {
+    padding: 10px;
+    font-size: small;
+}
+.restaurant-rpin {
+    font-size: small;
+}
+.restaurant-up-left img {
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 10px;
+}
+.restaurant-details-mid {
+    display: grid;
+    grid-template-areas: "a a";
+    gap: 5px;
+    padding: 10px;
+    height: 130px;
+    margin-top: 10px;
+
+}
+.restaurant-details-down {
+
+    margin-top: 10px;
+    font-size: small;
+    font-weight: 100;
+    padding: 10px;
+    box-shadow: 0px 0px 3px;
+}
+.restaurant-details-down input {
+    width: 100%;
+    margin: auto;
+}
+
+.ritem-mid {
+    display: flex;
+    box-shadow: 0px 0px 3px;
+    padding: 3px;
+    width: 124px;
+    height: 36px;
+}
+.ritem-mid-img {
+    
+}
+.ritem-mid-img img {
+    height: 30px;
+    width: 30px;
+    border: 2px solid;
+    border-radius: 1000000px;
+}
+.ritem-mid-details{
+    font-weight: 100;
+    font-size: small;
+    margin-left: 20px;
+}
+
+.restaurant-details-down button {
+    border: none;
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+    background: #00ADB5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+.selected-restaurant {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 3px;
+    font-size: small;
+    font-weight: 100;
+    margin-bottom: 10px;
+
+}
+
+.search-selected-details {
+    padding: 20px;
+    
+}
+.search-selected-note {
+    display: flex;
+    justify-content: center;
+}
+.search-selected-note input {
+    width: 90%;
+    height: 30px;
+}

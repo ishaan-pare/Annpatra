@@ -1,7 +1,10 @@
 .navb{
-    background-color: hsl(215, 21%, 11%);
+    background-color: #222831;
     overflow: hidden;
     /* opacity: 0.5; */
+}
+#icon {
+    float: left;
 }
 .navb a{
     float: right;
@@ -12,6 +15,9 @@
     text-decoration: none;
     font-size: 17px;
     
+}
+#logout-btn {
+    background-color: crimson;
 }
 #logo {
     float: left;
@@ -31,8 +37,9 @@
     .navb a:not(:first-child){display: none;}
     .navb a.icon1{
         font-size: large;
-        float: right;
+        float: left;
         display: block;
+
     }
 }
 

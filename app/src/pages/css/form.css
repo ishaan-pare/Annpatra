@@ -1,0 +1,110 @@
+.form {
+    box-shadow: 0px 0px 3px;
+    width: fit-content;
+    border-radius: 12px;
+    background-color: white;
+}
+.form-options {
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+.form-options-login {
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    background-color: #393E46;
+    color: white;
+    border-radius: 12px 0px 0px 0px;
+    cursor: pointer;
+
+}
+.form-options-login:hover{
+    background-color: #3d4450;
+}
+.form-options-loginp {
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+    background-color: #222831;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 12px 0px 0px 0px;
+
+}
+.form-options-loginp:hover {
+    background-color: #2a323c;
+}
+.form-options-register {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    background-color: #393E46;
+    color: white;
+    border-radius: 0px 12px 0px 0px;
+    cursor: pointer;
+
+}
+.form-options-register:hover{
+    background-color: #3d4450;
+}
+.form-options-registerp {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    cursor: pointer;
+    background-color: #222831;
+    color: white;
+    border-radius: 0px 12px 0px 0px;
+
+}
+.form-options-registerp:hover{
+    background-color: #2a323c;
+}
+
+.form-fill {
+    padding: 15px;
+}
+.form-fill input{
+    width: 240px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.form-fill-fp{
+    color: blue;
+}
+.form-fill button {
+    float: right;
+    margin-top: 30px;
+
+    border: none;
+    background: #00ADB5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+.form-fill button:hover {
+    background-color: #02939a;
+
+}
+
+.radiobtn{
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+#rd1 {
+    width: 40px;
+    height: 18px;
+}
+#rd2 {
+    width: 40px;
+    height: 18px;
+}

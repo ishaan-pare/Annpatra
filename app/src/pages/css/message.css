@@ -1,0 +1,18 @@
+.message0 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.message1 {
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
